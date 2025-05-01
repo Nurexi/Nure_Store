@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nure Your Premium Tech Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1 class="animated-logo">
+                    Nure <span class="stor" style="animation: colorChange 3s infinite;">Store</span>
+                </h1>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#reviews-section" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="search-container">
+                    <input type="text" class="search-input" id="search-input" placeholder="Search for products...">
+                    <i class="fas fa-search search-icon" id="search-button"></i>
+                </div>
+            </div>
+            <div class="nav-icons">
+                <div class="cart-icon" id="open-cart">
+                    <a href="#" style="color: white; text-decoration: none;">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2 class="hero-heading">Welcome to <span class="highlight">Nure Store</span></h2>
+            <a href="#products" class="animated-cta">Shop by Category</a>
+           
+            <div class="category-grid" id="products">
+                <div class="category-card" style="animation: bounce 2s infinite;">
+                    <img src="02475d5beed8fadd1591c980d889be13.jpg" alt="Laptops" class="category-image">
+                    <a href="#laptops-section" class="cta-button" style="color: rgb(239, 240, 242); background: transparent; font-size: 1.5rem; font-family: 'Poppins', sans-serif;">Laptops</a>
+                </div>
+                <div class="category-card" style="animation: bounce 2s infinite;">
+                    <img src="9577b4e9ffe033279aecf852f10ff07b.jpg" alt="Phones" class="category-image">
+                    <a href="#phones-section" class="cta-button" style="color: rgb(255, 253, 250); background: transparent; font-size: 1.5rem; font-family: 'Poppins', sans-serif;">Phones</a>
+                </div>
+                <div class="category-card">
+                    <img src="6acd2d2ffada2f9ebccc77c2483f3e0f.jpg" alt="Tablets" class="category-image">
+                    <a href="#tablets-section" class="cta-button" style="color: rgb(255, 252, 245); background: transparent; font-size: 1.5rem; font-family: 'Poppins', sans-serif;">Tablets</a>
+                </div>
+                <div class="category-card">
+                    <img src="72fce32d264f508c0c50456aa3656341.jpg" alt="Gaming PCs" class="category-image">
+                    <a href="#gaming-pcs-section" class="cta-button" style="color: rgb(255, 249, 238); background: transparent; font-size: 1.5rem; font-family: 'Poppins', sans-serif;">Gaming PCs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="fa6644dca5b822f57cdec0c95e19abe9.jpg" alt="About Us">
+            </div>
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>
+                    At Nure Store, we bring you the latest and greatest in technology. From gaming PCs to laptops, we are dedicated to providing high-quality products that meet your needs.
+                </p>
+                <p>
+                    Explore our wide range of products and experience the future of technology today.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gaming PCs Section -->
+    <section class="section-container" id="gaming-pcs-section">
+        <h2 class="section-title">Explore Our Gaming PCs</h2>
+        <p class="section-description">Discover high-performance gaming PCs built for the ultimate gaming experience.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="c606082d661ada5db9ef8dcc89e1a7ee.jpg" alt="Streaming PC" class="product-image">
+                </div>
+                <h3>Streaming PC</h3>
+                <p class="price">$1000</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="add-to-cart" data-id="pc1" data-name="Streaming PC" data-price="1799" data-image="c606082d661ada5db9ef8dcc89e1a7ee.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="8b6a24b4387ffe6bd69cdf37ccdb3533.jpg" alt="Ultra Gaming PC" class="product-image">
+                </div>
+                <h3>Ultra Gaming PC</h3>
+                <p class="price">$1300</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="pc2" data-name="Ultra Gaming PC" data-price="2999" data-image="8b6a24b4387ffe6bd69cdf37ccdb3533.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="431b755dc57f4c8309b6fe2ea67b42da.jpg" alt="Flagship Gaming PC" class="product-image">
+                </div>
+                <h3>Flagship Gaming PC</h3>
+                <p class="price">$999</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="add-to-cart" data-id="pc3" data-name="Flagship Gaming PC" data-price="3499" data-image="431b755dc57f4c8309b6fe2ea67b42da.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="1d9e347684c6be3f86b7058fecb6b47e.jpg" alt="Compact Pro Gaming PC" class="product-image">
+                </div>
+                <h3>Compact Pro Gaming PC</h3>
+                <p class="price">$1100</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="pc4" data-name="Compact Pro Gaming PC" data-price="1899" data-image="1d9e347684c6be3f86b7058fecb6b47e.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laptops Section -->
+    <section class="section-container" id="laptops-section">
+        <h2 class="section-title">Explore Our Laptops</h2>
+        <p class="section-description">Discover the latest and most powerful laptops tailored to your needs.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="513521feca03e8e02d3fb2c86bc9187e.jpg" alt="Gaming Laptop" class="product-image">
+                </div>
+                <h3>Gaming Laptop</h3>
+                <p class="price">$1250</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="add-to-cart" data-id="l1" data-name="Gaming Laptop" data-price="1499" data-image="513521feca03e8e02d3fb2c86bc9187e.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="d324e00fd65f11c4f6cde0b01748af87.jpg" alt="MacBook Air M2" class="product-image">
+                </div>
+                <h3>MacBook Air M2</h3>
+                <p class="price">$800</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="l2" data-name="MacBook Air M2" data-price="1199" data-image="d324e00fd65f11c4f6cde0b01748af87.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="b82681d2b64039932eb0d1961ce625f4.jpg" alt="Microsoft Surface Laptop 5" class="product-image">
+                </div>
+                <h3>Microsoft Surface Laptop 5</h3>
+                <p class="price">$700</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="l3" data-name="Microsoft Surface Laptop 5" data-price="999" data-image="b82681d2b64039932eb0d1961ce625f4.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="fd408a746d0d16b2083301ca9525dd3a.jpg" alt="HP Spectre x360" class="product-image">
+                </div>
+                <h3>HP Spectre x360</h3>
+                <p class="price">$850</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="add-to-cart" data-id="l4" data-name="HP Spectre x360" data-price="1599" data-image="fd408a746d0d16b2083301ca9525dd3a.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phones Section -->
+    <section class="section-container" id="phones-section">
+        <h2 class="section-title">Explore Our Phones</h2>
+        <p class="section-description">Discover the latest smartphones designed for performance and style.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="85b7056de8a347a60345b57d070cdd18.jpg" alt="Pixel 8 Pro" class="product-image">
+                </div>
+                <h3>Pixel 8 Pro</h3>
+                <p class="price">$300</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="p1" data-name="Pixel 8 Pro" data-price="499" data-image="85b7056de8a347a60345b57d070cdd18.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="d37482ad81e5953fe2e776b2386e0300.jpg" alt="Samsung Galaxy S23 Ultra" class="product-image">
+                </div>
+                <h3>Samsung Galaxy S23 Ultra</h3>
+                <p class="price">$750</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="add-to-cart" data-id="p2" data-name="Samsung Galaxy S23 Ultra" data-price="1199" data-image="d37482ad81e5953fe2e776b2386e0300.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="68a354b18c088b28775cb9c2b8aea0cb.jpg" alt="iPhone 15 ProMax" class="product-image">
+                </div>
+                <h3>iPhone 15 ProMax</h3>
+                <p class="price">$1000</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="p3" data-name="iPhone 15 ProMax" data-price="1299" data-image="68a354b18c088b28775cb9c2b8aea0cb.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="aef062b328823a8a131764b34fd9d9f7.jpg" alt="Compact Pro Phone" class="product-image">
+                </div>
+                <h3>Compact Pro Phone</h3>
+                <p class="price">$899</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="p4" data-name="Compact Pro Phone" data-price="899" data-image="aef062b328823a8a131764b34fd9d9f7.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tablets Section -->
+    <section class="section-container" id="tablets-section">
+        <h2 class="section-title">Explore Our Tablets</h2>
+        <p class="section-description">Find the perfect tablet for work, play, and everything in between.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="602c757cfc37eb34b59cfbe7ef4ed2ad.jpg" alt="Microsoft Surface Go" class="product-image">
+                </div>
+                <h3>Microsoft Surface Go</h3>
+                <p class="price">$1,299</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="t1" data-name="Microsoft Surface Go" data-price="1299" data-image="602c757cfc37eb34b59cfbe7ef4ed2ad.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="a63fe32507f82c47ab1f66bc2533380f.jpg" alt="iPad Pro" class="product-image">
+                </div>
+                <h3>iPad Pro</h3>
+                <p class="price">$499</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="add-to-cart" data-id="t2" data-name="iPad Pro" data-price="499" data-image="a63fe32507f82c47ab1f66bc2533380f.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="2fcdacf76e65ad2889a42a8790e2e1d8.jpg" alt="iPad Pro with Magic Keyboard (Black)" class="product-image">
+                </div>
+                <h3>iPad Pro with Magic Keyboard (Black)</h3>
+                <p class="price">$399</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="add-to-cart" data-id="t3" data-name="iPad Pro with Magic Keyboard (Black)" data-price="399" data-image="2fcdacf76e65ad2889a42a8790e2e1d8.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="1608eeae63db519ff7443d5a8f29abf8.jpg" alt="iPad Pro with Magic Keyboard (White)" class="product-image">
+                </div>
+                <h3>iPad Pro with Magic Keyboard (White)</h3>
+                <p class="price">$599</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="add-to-cart" data-id="t4" data-name="iPad Pro with Magic Keyboard (White)" data-price="599" data-image="1608eeae63db519ff7443d5a8f29abf8.jpg">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="customer-reviews" id="reviews-section">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-description">Discover why our customers trust Nure store for their tech needs.</p>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="customer-info">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" class="customer-photo">
+                    <h3>John Doe</h3>
+                </div>
+                <p class="review-text">"Nure Store offers exceptional products and outstanding customer service. Highly recommended!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="customer-info">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jane Smith" class="customer-photo">
+                    <h3>Jane Smith</h3>
+                </div>
+                <p class="review-text">"A fantastic range of products and lightning-fast delivery. Nure store never disappoints!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="customer-info">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Johnson" class="customer-photo">
+                    <h3>Emily Johnson</h3>
+                </div>
+                <p class="review-text">"Unbeatable prices and top-notch quality. I'll definitely shop here again!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect With Us Section -->
+    <section class="connect-with-us" id="contact">
+        <h2 class="section-title">Connect With Us</h2>
+        <div class="social-grid">
+            <div class="social-card">
+                <a href="https://twitter.com/blacky_1346" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <h3>Twitter</h3>
+                </a>
+            </div>
+            <div class="social-card">
+                <a href="https://www.linkedin.com/in/nuredin-seid" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                    <h3>LinkedIn</h3>
+                </a>
+            </div>
+            <div class="social-card">
+                <a href="https://www.instagram.com/Nure_xos" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Nure store</h3>
+                <p>Your one-stop shop for all things tech. Discover the latest gadgets and innovations with us.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://twitter.com/blacky_1346" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nuredin-seid" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/Nure_xos" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-total">
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button class="checkout-button" id="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="search-modal">
+        <div class="search-modal-content">
+            <div class="search-modal-header">
+                <h3>Search Results</h3>
+                <button class="close-search-modal" id="close-search-modal">&times;</button>
+            </div>
+            <div class="search-results" id="search-results">
+                <!-- Search results will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <template id="cart-item-template">
+        <div class="cart-item">
+            <div class="cart-item-img-container">
+                <img src="/placeholder.svg" alt="" class="cart-item-img">
+            </div>
+            <div class="cart-item-info">
+                <div class="cart-item-name"></div>
+                <div class="cart-item-price"></div>
+                <div class="cart-item-quantity">
+                    <button class="quantity-btn decrease">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="quantity-btn increase">+</button>
+                </div>
+            </div>
+            <button class="remove-item">
+                <i class="fas fa-trash"></i>
+            </button>
+        </div>
+    </template>
+
+    <template id="empty-cart-template">
+        <div class="empty-cart">
+            <i class="fas fa-shopping-cart" style="font-size: 3rem; margin-bottom: 1rem; color: rgba(255, 255, 255, 0.2);"></i>
+            <p>Your cart is empty</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: rgba(255, 255, 255, 0.5);">Add some products to get started</p>
+        </div>
+    </template>
+
+    <template id="notification-template">
+        <div class="notification">
+            <i class="fas fa-check-circle"></i>
+            <span></span>
+            <div class="progress-bar"></div>
+        </div>
+    </template>
+
+    <script src="main.js"></script>
+</body>
+</html>
