@@ -18,4 +18,10 @@ Welcome to **Nure Store** – a stylish and responsive e-commerce website design
 - 📱 Mobile-friendly and fully responsive layout
 
 ## 📂 Project Structure
-
+nure-tech-store/
+│
+├── index.html # Main HTML file
+├── styles.css # Custom CSS styling
+├── main.js # JavaScript for interactions and cart logic
+├── /assets # (Optional) Folder for local images
+└── README.md # You're reading it!
