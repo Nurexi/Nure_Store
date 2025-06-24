@@ -25,3 +25,8 @@ nure-tech-store/
 ├── main.js # JavaScript for interactions and cart logic
 ├── /assets # (Optional) Folder for local images
 └── README.md # You're reading it!
+🛠️ Technologies Used
+HTML5
+CSS3 (with animations and transitions)
+Vanilla JavaScript (DOM manipulation, localStorage, dynamic UI)
+Google Fonts and Font Awesome icons
