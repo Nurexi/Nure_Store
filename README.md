@@ -30,3 +30,5 @@ HTML5
 CSS3 (with animations and transitions)
 Vanilla JavaScript (DOM manipulation, localStorage, dynamic UI)
 Google Fonts and Font Awesome icons
+📃 License
+This project is open-source and available under the MIT License.
