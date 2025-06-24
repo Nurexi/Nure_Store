@@ -17,19 +17,21 @@ Welcome to **Nure Store** – a stylish and responsive e-commerce website design
 - 🔎 Live product search simulation
 - 📱 Mobile-friendly and fully responsive layout
 
-## 📂 Project Structure
-nure-tech-store/
+## 📂 Project Structure<br>
+nure-tech-store/<br>
 │
-├── index.html # Main HTML file
-├── styles.css # Custom CSS styling
-├── main.js # JavaScript for interactions and cart logic
-├── /assets # (Optional) Folder for local images
+├── index.html # Main HTML file<br>
+├── styles.css # Custom CSS styling<br>
+├── main.js # JavaScript for interactions and cart logic<br>
+├── /assets # (Optional) Folder for local images<br>
 └── README.md # You're reading it! <br>
 
-🛠️ Technologies Used
-HTML5.
-CSS3 (with animations and transitions)
-Vanilla JavaScript (DOM manipulation, localStorage, dynamic UI)
+🛠️ Technologies Used<br>
+
+HTML5 <br>
+CSS3 (with animations and transitions)<br>
+Vanilla JavaScript (DOM manipulation, localStorage, dynamic UI)<br>
 Google Fonts and Font Awesome icons <br>
-📃 License
+
+📃 License<br>
 This project is open-source and available under the MIT License.
