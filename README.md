@@ -24,11 +24,12 @@ nure-tech-store/
 ├── styles.css # Custom CSS styling
 ├── main.js # JavaScript for interactions and cart logic
 ├── /assets # (Optional) Folder for local images
-└── README.md # You're reading it!
+└── README.md # You're reading it! <br>
+
 🛠️ Technologies Used
-HTML5
+HTML5.
 CSS3 (with animations and transitions)
 Vanilla JavaScript (DOM manipulation, localStorage, dynamic UI)
-Google Fonts and Font Awesome icons
+Google Fonts and Font Awesome icons <br>
 📃 License
 This project is open-source and available under the MIT License.
