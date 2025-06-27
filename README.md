@@ -1,5 +1,5 @@
 # 🛒 Nure | Your Premium Tech Store                 
-            
+             
 Welcome to **Nure Store**  a stylish and responsive e-commerce website designed for premium tech lovers. This project showcases a modern tech store with stunning visuals, smooth animations, and interactive features using only **HTML**, **CSS**, and **JavaScript**.<div> 
 ![Screenshot (19)](https://github.com/user-attachments/assets/884365aa-1057-45ff-92f8-a9154af372d0
 ) <!-- Replace with your actual screenshot path --> 
