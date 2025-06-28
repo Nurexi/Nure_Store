@@ -4,7 +4,7 @@ Welcome to **Nure Store**  a stylish and responsive e-commerce website designed 
 ![Screenshot (19)](https://github.com/user-attachments/assets/884365aa-1057-45ff-92f8-a9154af372d0
 ) <!-- Replace with your actual screenshot path --> 
    
-## 🌟 Features         
+## 🌟 Features          
  
 - 🔥 Beautiful hero section with animated call-to-action
 - 🧭 Smooth and responsive navigation bar
